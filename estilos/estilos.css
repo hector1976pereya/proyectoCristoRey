@@ -1,0 +1,385 @@
+/*  
+#E4E9BE
+#E2C2B9
+#79B4B7
+#D57E7E
+#94B49F
+#395B64
+#FF9F29
+
+*/
+
+/*------------------------------------Reseteo de estilos aplicados por el navegador-----------------------------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Playfair Display', serif;
+}
+
+/*------------------------------------Estilos aplicados al Index Exclusivamente----------------------------------------------*/
+
+.contenedorCabeceraIndex{
+   
+    height: 500px;
+    padding-top: 20px;
+
+    border-bottom:solid black 2px; ;
+    box-shadow: 10px 10px 5px black;
+
+    background-image:url(../imagenes/imagen-oficio.jpg);
+    background-size: cover;
+    
+}
+
+.contenedorCabeceraIndex > h1{
+    padding-top: 20px;
+
+    text-align: center;
+    font-size: 50px;
+    color: #cbbfb1;
+    -webkit-text-stroke: 2px black;
+
+
+}
+
+ .contenedorCabeceraIndex > h1 > span{
+
+    color: black;
+    font-size: 70px;
+    -webkit-text-stroke: 2px #cbbfb1;
+
+}
+
+.imagenEscudoIndex{
+    
+    margin-left: 60%;
+  
+
+    border: solid 2px black;
+    border-radius: 50%; 
+    box-shadow: 8px 8px 5px black;
+}
+
+.main-section{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    
+
+}
+
+.main-contenedor-imagen{
+
+    width: 313px;
+    height: 300px;
+
+    margin: 20px;
+
+    border: solid black 2px;
+    background-color:#FF9F29;
+    border-radius: 7px;
+
+    box-shadow: 5px 5px 3px black ;
+
+
+    
+
+}
+
+.main-contenedor-imagen >  img{
+
+   object-fit:cover ;
+    width: 309px ;
+    height: 200px;
+}
+
+.main-contenedor-imagen > figcaption{
+
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.main-contenedor-imagen > a > button{
+   margin:20px;
+   padding: 2px;
+
+   background-color: #395B64;
+
+   border: solid black 2px;
+   border-radius: 5px;
+   box-shadow: 4px 4px 2px black;
+   color: white;
+
+
+
+
+}
+.main-contenedor-imagen > a > button:hover{
+    background-color:red;
+
+}
+ 
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------Estilos aplicados para todas las páginas--------------------------------------*/
+
+.menuNavegacion{
+
+  position: sticky;
+  top: 10px;
+
+  max-width: 900px;
+
+  margin: auto;
+
+ background-color: #395b64 ;
+ border: solid white 2px;
+ font-size: 25px;
+}
+
+.menu_horizontal{
+   
+    display: flex;
+    justify-content: space-around;
+
+    list-style: none;  
+}
+
+.menu_horizontal > li >  a{
+
+    display: block;
+
+    padding: 15px 20px;
+  
+    color: white;
+    text-decoration: none;
+   
+}
+
+.menu_horizontal  li:hover{
+    background-color:rgba(0, 0, 0, 0.529);
+}
+
+.menu_vertical{
+
+    position: absolute;
+    display: none;
+   
+    width: 170px;
+
+    background-color: rgba(0, 0, 0, 0.529);
+  
+    list-style: none;
+}
+
+.menu_horizontal li:hover .menu_vertical {
+    display: block;
+
+
+}
+
+.menu_vertical  li  a{
+
+    
+    text-decoration: none;
+    padding: 15px 15px;
+    color: white;
+   
+}.menu_vertical li:hover{
+
+    background-color: black;
+
+
+}
+
+body{
+    
+    background-color:  #395b6477; 
+}
+
+main{
+    margin-top: 20px;
+}
+
+.contenedorMain{
+    width: 50%;
+   
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: rgba(255, 166, 0, 0.359);
+    border: solid black 1px;
+    border-radius:20px ;
+    box-shadow: 8px 8px black ;
+    
+
+
+}
+.contenedorMain > h1{
+
+text-align: center;
+text-decoration: underline;
+}
+
+h2{
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.listaContenido{
+    margin-left: 10%;
+}
+
+h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.escudoMain{
+    
+  width: 100px;
+  height: auto; 
+
+  margin: 10px;
+
+  border-radius: 50%;
+}
+
+
+
+
+.footer{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    background-color:rgba(255, 255, 255, 0.228);
+    border: solid 4px rgba(0, 0, 0, 0.495);
+    
+}
+.footer > div{
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.footer .img-frente{
+    width: 159px;
+    height: 94px;
+
+    border: solid black 2px;
+    border-radius: 5%;
+}
+
+.footer .redes > a {
+
+    margin: 20px;
+
+    
+}
+   
+
+
+/*-----------Estilos aplicados al resto de las páginas en el main----------------*/
+
+.contenedorMenu{
+    max-width: 1050px;
+    height: 300px;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:20px ;
+
+    
+    background-size: cover;
+
+    border: solid black 1px;
+    box-shadow: 10px 10px 5px black;
+    
+}
+
+.contenedorMenu > h1{
+
+    margin-top: 50px;
+
+    text-align: center;
+    font-size: 50px;
+    text-shadow: -2px -2px 1px #000;
+    color: #824e0d;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+.cabecera-kinesiologia .contenedorMenu{
+
+    background-image: url(../imagenes/kinesiologia2.jpg);
+}
+
+.cabecera-refrigeracion .contenedorMenu{
+
+    background-image: url(../imagenes/tec-refrigeracion.jpg);
+}
+
+.cabecera-peluqueria .contenedorMenu{
+background-image: url(../imagenes/peluqueria2.jpg);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
