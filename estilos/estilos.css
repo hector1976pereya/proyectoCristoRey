@@ -265,36 +265,43 @@ h3{
   border-radius: 50%;
 }
 
+/*---------------------------FOOTER--------------------------*/
 
 
+footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
 
-.footer{
-    display: flex;
     margin-top: 20px;
-    justify-content: center;
-    background-color:rgba(255, 255, 255, 0.228);
-    border: solid 4px rgba(0, 0, 0, 0.495);
+    
+    background-color:#b1817465;
+    box-shadow: 8px -8px 4px black;
+
+  
+   
     
 }
-.footer > div{
-    margin-left: 70px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-.footer .img-frente{
-    width: 159px;
-    height: 94px;
 
-    border: solid black 2px;
-    border-radius: 5%;
-}
-
-.footer .redes > a {
-
-    margin: 20px;
+footer > div{
 
     
+    padding: 40px;
 }
+
+footer > .redes-sociales > a > img {
+
+    margin-left: 20px;
+    padding: 10px;
+
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+
+
+
    
 
 
